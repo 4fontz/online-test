@@ -1,0 +1,4 @@
+[05-Apr-2019 10:26:40 Asia/Kolkata] PHP Fatal error:  Call to undefined method Common_model::get_all_service_type() in /home/wwwtheseapearls/public_html/treemonks-backend/application/controllers/Service.php on line 594
+[05-Apr-2019 10:36:02 Asia/Kolkata] PHP Fatal error:  Call to undefined method Common_model::get_all_service_type() in /home/wwwtheseapearls/public_html/treemonks-backend/application/controllers/Service.php on line 594
+[05-Apr-2019 14:37:59 Asia/Kolkata] PHP Fatal error:  Call to undefined method Common_model::get_all_service_type() in /home/wwwtheseapearls/public_html/treemonks-backend/application/controllers/Service.php on line 594
+[05-Apr-2019 14:38:10 Asia/Kolkata] PHP Fatal error:  Call to undefined method Common_model::get_all_service_type() in /home/wwwtheseapearls/public_html/treemonks-backend/application/controllers/Service.php on line 594
