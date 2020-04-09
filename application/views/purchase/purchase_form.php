@@ -83,7 +83,7 @@
                     <div class="form-group row">
                         <span class="label-text col-md-3 col-form-label text-md-right">Sales Price *</span>
                         <div class="col-md-9">
-                            <input type="number" min="1" name="purchase_sales_price" readonly id="purchase_sales_price" placeholder="Markup" class="form-control" autocomplete="off" required value="<?php echo (isset($existing_purchase))?$existing_purchase->purchase_sales_price:'';?>">
+                            <input type="number" min="1" name="purchase_sales_price" readonly id="purchase_sales_price" placeholder="Sales Price" class="form-control" autocomplete="off" required value="<?php echo (isset($existing_purchase))?$existing_purchase->purchase_sales_price:'';?>">
                         </div>
                     </div>
                     <hr>
