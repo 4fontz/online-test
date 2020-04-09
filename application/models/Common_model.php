@@ -32,18 +32,6 @@ class Common_model extends CI_Model
 	        $query = $this->db->get ();
 	        return $query->result ();
 	}
-	function get_all_custom($tablename, $condtion = ''){
-	    $this->db->select ( '*' );
-	    $this->db->from ( $tablename );
-	    if ($condtion != '')
-	        $this->db->where ( $condtion );
-	        $this->db->order_by ( 'purchase_created_at', 'ASC' );
-	        $query = $this->db->get ();
-	        return $query->result ();
-	}
-	public function last_row($id,$table_name){
-	    return $this->db->select("*")->limit(1)->order_by($id,"DESC")->get($table_name)->row();
-	}
 	public function update_row($data, $condition, $tablename){
 	    date_default_timezone_set('Asia/Kolkata'); 
 	    $this->db->where ( $condition );
@@ -57,17 +45,6 @@ class Common_model extends CI_Model
 	}
 	function get_row($condition, $tablename){
 	    return $this->db->where ( $condition )->get ( $tablename )->row ();
-	}
-	public function delete_row_table($condition, $tablename){
-	    return $this->db->where ( $condition )->delete ( $tablename );
-	}
-	function get_all_count($tablename,$condtion){
-		$this->db->select ( '*' );
-		$this->db->from ( $tablename );
-			$this->db->where ( $condtion );
-			$this->db->order_by ( 'fr_created_at', 'DESC' );
-			$query = $this->db->get ();
-			return $query->num_rows ();
 	}
 }
 ?>

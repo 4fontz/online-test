@@ -65,7 +65,7 @@
                                         <input type="submit" name="login" class="btn btn-rounded btn-info" value="Login">
                                     </div>
                                     <div class="m-account--footer">
-                                        <p>&copy; 2018 <?php echo "Online Test";?></p>
+                                        <p>&copy; 2020 <?php echo "Online Test";?></p>
                                     </div>
                                 <?= form_close(); ?>
                             </div>
